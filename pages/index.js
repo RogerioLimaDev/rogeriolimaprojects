@@ -1,7 +1,8 @@
 function Home(){
     return 
-    <div><h1>Página inicial</h1></div>
-    <a href ="/sobre">Saiba mais</a>
+    <div><h1>Home Teste</h1>
+    <a href="/sobre"> Saiba mais</a>
+    </div>
 }
 
 
