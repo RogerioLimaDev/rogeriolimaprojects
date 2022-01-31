@@ -7,7 +7,7 @@ function Home()
     (<div>
     <h1>Home Teste</h1>
         <Link href="/sobre">
-        <a>Saiba mais</a>
+            <a>Saiba mais</a>
         </Link>
     </div>)
 }
