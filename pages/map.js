@@ -31,6 +31,9 @@ export default function Map() {
   <div>
   <h1>Tá complicado...</h1>
   <p>Tentando renderizar um mapa do Map box usando o Next JS</p>
+  <Link href="/sobre">
+    <a>Sobre</a>
+  </Link>
   <ReactMapGL
     mapStyle="mapbox://styles/mapbox/streets-v11"
     mapboxApiAccessToken = "pk.eyJ1Ijoicm9nZXJpb2xpbWF0aGVkZXYiLCJhIjoiY2t6M2FoaWs2MDFrdzJ2cDQzaHNkYXJwZSJ9._MyQKNc9qDkcccffQ23bkQ"
