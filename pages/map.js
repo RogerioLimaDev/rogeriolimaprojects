@@ -3,7 +3,7 @@ import ReactMapGL from "react-map-gl";
 import 'mapbox-gl/dist/mapbox-gl.css';
 
 // const url = `https://api.mapbox.com/geocoding/v5/mapbox.places/greggs.json?access_token=${process.env.MAPBOX_KEY}&bbox=-0.227654%2C51.464102%2C0.060737%2C51.553421&limit=10`;
-mapboxgl.accessToken = process.env.MAPBOX_KEY;
+// mapboxgl.accessToken = process.env.MAPBOX_KEY;
 
 export default function Map() {
 
@@ -17,7 +17,7 @@ export default function Map() {
   });
   return <ReactMapGL
     mapStyle="mapbox://styles/mapbox/streets-v11"
-    // mapboxApiAccessToken = {process.env.MAPBOX_KEY}
+    mapboxApiAccessToken = {process.env.MAPBOX_KEY}
     {...viewport}
     onViewportChange={(nextViewport) => setViewport(nextViewport)}
     >
