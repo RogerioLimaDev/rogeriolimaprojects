@@ -18,8 +18,6 @@ function Home(){
 
 export default function Map() {
 
-    Home();
-
     const [viewport, setViewport] = useState({
     width: "100%",
     height: "100%",
