@@ -7,7 +7,6 @@ import ReactMapGL from "react-map-gl";
 
 export default function Map() {
 
-    accessToken = process.env.MAPBOX_KEY;
     const [viewport, setViewport] = useState({
     width: "100%",
     height: "100%",
@@ -18,7 +17,7 @@ export default function Map() {
   });
   return <ReactMapGL
     mapStyle="mapbox://styles/mapbox/streets-v11"
-    // mapboxApiAccessToken = 
+    mapboxApiAccessToken = {process.env.MAPBOX_KEY}
     {...viewport}
     onViewportChange={(nextViewport) => setViewport(nextViewport)}
     >
